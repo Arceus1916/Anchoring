@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruitment Email</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1c1c1c; /* Black background */
+      color: #f1c40f; /* Gold color for text */
+    }
+    .email-container {
+      max-width: 600px;
+      margin: 20px auto;
+      background: #1c1c1c; /* Black background */
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .header {
+      text-align: center;
+      background-color: #000000;
+      padding: 20px;
+    }
+    .header img {
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+    .header h1 {
+      color: #f1c40f; /* Gold */
+      margin: 0;
+      font-size: 24px;
+    }
+    .content {
+      padding: 20px;
+    }
+    .content h2 {
+      text-align: center;
+      color: #f1c40f;
+      margin-bottom: 20px;
+    }
+    .team {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .team-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: #282828; /* Dark grey for contrast */
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .team-item:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    .team-item img {
+      max-width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .team-item .text {
+      flex: 1;
+      padding: 20px;
+    }
+    .team-item h3 {
+      color: #f1c40f; /* Gold */
+      margin: 0 0 10px;
+    }
+    .cta {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f1c40f;
+      color: #1c1c1c; /* Black */
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .cta a:hover {
+      background-color: #d4ac0d; /* Darker gold */
+    }
+    .qr-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .qr-section img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      margin-top: 10px;
+    }
+    .footer {
+      background-color: #1c1c1c; /* Match main background */
+      color: #f1c40f; /* Gold text */
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .footer a {
+      color: #f1c40f;
+      text-decoration: none;
+      margin: 0 10px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .footer a img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+    .footer a:hover {
+      color: #d4ac0d;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <div class="header">
+      <img src="logo.png" alt="Club Logo">
+      <h1>Anchoring Club Recruitment</h1>
+    </div>
+    <div class="content">
+      <h2>Join Our Teams!</h2>
+      <div class="team">
+        <!-- Anchoring Team -->
+        <div class="team-item">
+          <img src="anchors.jpg" alt="Anchoring Team">
+          <div class="text">
+            <h3>Anchoring</h3>
+            <p>Be the voice of our club! Take center stage at events, deliver compelling speeches, and keep the audience engaged.</p>
+          </div>
+        </div>
+        <!-- Documentation Team -->
+        <div class="team-item">
+          <img src="documents.jpg" alt="Documentation Team">
+          <div class="text">
+            <h3>Documentation and Content</h3>
+            <p>Craft compelling stories, manage documentation, and ensure accurate records for all club activities.</p>
+          </div>
+        </div>
+        <!-- Design Team -->
+        <div class="team-item">
+          <img src="design.webp" alt="Design Team">
+          <div class="text">
+            <h3>Design</h3>
+            <p>Unleash your creativity and design posters, banners, and all visual elements that represent our club.</p>
+          </div>
+        </div>
+        <!-- Marketing Team -->
+        <div class="team-item">
+          <img src="marketing.jpeg" alt="Marketing Team">
+          <div class="text">
+            <h3>Marketing</h3>
+            <p>Spread the word and strategize promotional campaigns to reach a larger audience.</p>
+          </div>
+        </div>
+        <!-- Social Media Team -->
+        <div class="team-item">
+          <img src="social.jpeg" alt="Social Media Team">
+          <div class="text">
+            <h3>Social Media Outreach</h3>
+            <p>Manage our social media handles and ensure our online presence is impactful and engaging.</p>
+          </div>
+        </div>
+        <!-- Event Management Team -->
+        <div class="team-item">
+          <img src="cid:event_management.png" alt="Event Management Team">
+          <div class="text">
+            <h3>Event Management</h3>
+            <p>Plan, organize, and execute events to perfection, ensuring every event is a memorable one.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cta">
+        <a href="https://example.com/apply" target="_blank">Apply Now</a>
+      </div>
+      <div class="qr-section">
+        <p>Alternatively, scan the QR code below to apply:</p>
+        <img src="qr.jpg" alt="QR Code to Form">
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2025 Anchoring Club, VIT-AP. All Rights Reserved.</p>
+      <a href="https://www.linkedin.com/" target="_blank">
+        <img src="linked in.png" alt="LinkedIn">LinkedIn
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="insta.png" alt="Instagram">Instagram
+      </a>
+    </div>
+  </div>
+</body>
+</html>
